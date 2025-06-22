@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.balance {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.inc-exp-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+.inc-exp-container > div {
+  flex: 1;
+  text-align: center;
+}
+
+.money {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.plus {
+  color: green;
+}
+
+.minus {
+  color: red;
+}
+
+.list {
+  list-style-type: none;
+  margin: 20px 0;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.list li {
+  background: #f6f6f6;
+  padding: 10px;
+  border-right: 5px solid;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.list li.plus {
+  border-color: green;
+}
+
+.list li.minus {
+  border-color: red;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
